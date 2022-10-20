@@ -1,2 +1,42 @@
 /* font-family: 'Gilda Display', serif;
-font-family: 'Montserrat', sans-serif; */
+font-family: 'Poppins', sans-serif; */
+:root {
+  --main-bg-color: #fef6ed;
+  --main-tx-color: #184027;
+  --sec-color: #ed6b2d;
+}
+
+body {
+  background: var(--main-bg-color);
+  color: var(--main-tx-color);
+}
+
+.hero {
+  text-align: center;
+  padding: 250px;
+}
+
+h1 {
+  font-family: "Gilda Display", serif;
+  font-size: 80px;
+  margin: 0px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  padding: 20px 0px 40px 0px;
+  margin: 0px;
+}
+
+.btn-branded {
+  background: var(--sec-color);
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-branded:hover {
+  background: transparent;
+  color: #ed6b2d;
+  border: solid 1px #ed6b2d;
+}
