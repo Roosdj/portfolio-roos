@@ -13,9 +13,32 @@ body {
   color: var(--main-tx-color);
 }
 
+nav {
+  padding: 20px;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: var(--main-tx-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li a:hover {
+  color: var(--sec-color);
+}
+
+nav li .active {
+  color: var(--sec-color);
+}
+
 .hero {
   text-align: center;
-  padding: 200px 100px 100px 100px;
+  padding: 100px 100px 100px 100px;
 }
 
 h1 {
@@ -85,6 +108,11 @@ hr.branded-stripe {
   filter: none;
 }
 
+.about-photo {
+  padding: 30px;
+  border-radius: 35px;
+}
+
 .footer {
   background: #eff483;
   width: 70%;
@@ -131,14 +159,40 @@ footer a:hover {
 
 @media (max-width: 900px) {
   .hero {
-    padding: 100px 50px 50px 50px;
+    padding: 0px 50px 50px 50px;
   }
 
   h1 {
     font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
   }
 
   p {
     font-size: 13px;
+  }
+
+  .about {
+    padding: 0px 30px 30px 30px;
+    margin: 0px;
+  }
+
+  nav {
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  ul {
+    padding: 0px;
+  }
+
+  hr.branded-stripe {
+    border: 0.5px solid var(--main-tx-color);
   }
 }
