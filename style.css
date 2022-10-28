@@ -113,6 +113,15 @@ hr.branded-stripe {
   border-radius: 35px;
 }
 
+.work-gallery {
+  max-width: 900px;
+}
+
+.work-img {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 .footer {
   background: #eff483;
   width: 70%;
@@ -194,5 +203,9 @@ footer a:hover {
 
   hr.branded-stripe {
     border: 0.5px solid var(--main-tx-color);
+  }
+
+  .work-gallery {
+    max-width: 400px;
   }
 }
