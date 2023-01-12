@@ -57,11 +57,13 @@ h2 {
 h3 {
   font-family: var(--main-font);
   font-size: 64;
+  margin: 8px;
 }
 
 p {
   font-family: var(--sec-font);
   font-size: 15px;
+  margin: 8px;
 }
 
 .btn-main-branded {
@@ -90,8 +92,10 @@ p {
 
 hr.branded-stripe {
   border: 1.5px solid var(--main-tx-color);
-  width: 80%;
+  width: 85%;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 4px;
   opacity: 0.75;
 }
@@ -111,6 +115,28 @@ hr.branded-stripe {
 .about-photo {
   padding: 30px;
   border-radius: 35px;
+}
+
+ol {
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  font-family: var(--sec-font);
+  font-size: 15px;
+}
+
+.cv {
+  color: var(--sec-color);
+}
+
+button {
+  margin: 20px;
+}
+
+#showCV {
+  display: none;
 }
 
 .work-gallery {
