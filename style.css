@@ -104,6 +104,10 @@ p {
   transition: 0.3s all ease-in-out;
 }
 
+.phone-button {
+  text-align: center;
+}
+
 hr.branded-stripe {
   border: 1.5px solid var(--main-tx-color);
   width: 85%;
