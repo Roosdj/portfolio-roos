@@ -11,6 +11,18 @@ font-family: 'Poppins', sans-serif; */
 body {
   background: var(--main-bg-color);
   color: var(--main-tx-color);
+  position: relative;
+  animation: move 1s infinite;
+  animation-iteration-count: 1;
+}
+
+@keyframes move {
+  from {
+    top: -300px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
 nav {
@@ -50,7 +62,7 @@ h1 {
 h2 {
   font-family: var(--sec-font);
   font-size: 22px;
-  padding: 20px 0px 40px 0px;
+  padding: 20px 0px 30px 0px;
   margin: 0px;
 }
 
@@ -76,6 +88,7 @@ p {
   background: transparent;
   color: var(--sec-color);
   border: solid 1px var(--sec-color);
+  transition: 0.3s all ease-in-out;
 }
 
 .btn-sec-branded {
@@ -88,6 +101,7 @@ p {
   background: var(--sec-color);
   color: white;
   border-radius: 4px;
+  transition: 0.3s all ease-in-out;
 }
 
 hr.branded-stripe {
